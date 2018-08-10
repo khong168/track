@@ -48,5 +48,9 @@ img {
 .description {
   text-align: left;
   color: black;
-  
+
+}
+
+#clearButton {
+  margin-top: 50px;
 }

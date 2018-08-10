@@ -1,6 +1,5 @@
 $(document).ready(function() {
     $("form#surveyForm").submit(function(event) {
-        // $('#surveyForm')[0].reset();
       var developer = $("input[name='developer']:checked").val();
       var company = $("input[name='company']:checked").val();
       var strength = $("input[name='strength']:checked").val();
@@ -47,7 +46,7 @@ $(document).ready(function() {
       } else if (book === '1984' && hobby === 'boardGames' && beatles === 'john') {
         $('#fullStackResult').show();
       } else if (book === 'pi' && hobby === 'drawing' && beatles === 'george') {
-        $('#FrontEndResult').show();
+        $('#frontEndResult').show();
       } else if (book === 'war' && hobby === 'bicycle' && beatles === 'john') {
         $('#fullStackResult').show();
       } else if (book === '1984' && hobby === 'boardGames' && beatles === 'paul') {
@@ -59,7 +58,6 @@ $(document).ready(function() {
       } else {
         $('#fullStackResult').show();
       }
-
 
       event.preventDefault();
     });
