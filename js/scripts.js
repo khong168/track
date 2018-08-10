@@ -8,23 +8,31 @@ $(document).ready(function() {
 
       console.log(developer);
       console.log(company);
+      console.log(strength);
+      console.log(hobby);
+      console.log(beatles);
 
-      if (developer == 'frontEnd' && company == 'small' && strength == 'design') {
+
+      if (developer === 'frontEnd' && company === 'small' && strength === 'design') {
         $("#frontEndResult").show();
-      } else if (quality === 'kindness' && drunkFood === 'burritos') {
-        $("#fabulous").show();
-      } else if (quality === 'honesty' && drunkFood === 'burritos') {
+      } else if (developer === 'frontEnd' && company === 'medium' && strength === 'logic') {
+        $("#fullStackResult").show();
+      } else if (developer === 'frontEnd' && company === 'medium' && strength === 'logic') {
         $("#brilliant").show();
-      } else if (quality === 'bravery' && drunkFood === 'pizza') {
-        $('#brilliant').show();
-      } else if (quality === 'kindness' && drunkFood === 'pizza') {
-        $('#positive').show();
-      } else if (quality === 'honesty' && drunkFood === 'pizza') {
-        $('#cool').show();
-      } else if (quality === 'bravery' && drunkFood === 'fries') {
-        $('#cool').show();
-      } else if (quality === 'kindness' && drunkFood === 'fries') {
-        $('#adventurous').show();
+
+      // } else if (developer === 'backEnd' && company === 'large' && strength === 'patience') {
+      //   $("#backEndResult").show();
+      // } else if (developer === 'backEnd' && company === 'medium' && strength === 'patience') {
+      //   $('#fullStackResult').show();
+      // } else if (developer === 'undecided' && company === 'small' && strength === 'design') {
+      //   $('#frontEndResult').show();
+      // } else if (developer === 'undecided' && company === 'large' && strength === 'logic') {
+      //   $('#backEndResult').show();
+      // } else if (developer === 'undecided' && company === 'medium' && strength === 'patience') {
+      //   $('#fullStackResult').show();
+      // } else if (strenth === 'logic' && hobby === 'boardGames' && beatles === 'john') {
+      //   $('#backEndResult').show();
+
       } else {
         $('#brilliant').show();
       }
