@@ -5,48 +5,54 @@ $(document).ready(function() {
       var strength = $("input[name='strength']:checked").val();
       var hobby = $("input[name='hobby']:checked").val();
       var beatles = $("input[name='beatles']:checked").val();
+      var book = $("input[name='book']:checked").val();
 
       console.log(developer);
       console.log(company);
       console.log(strength);
       console.log(hobby);
       console.log(beatles);
+      console.log(book);
 
 
-      if (developer === 'frontEnd' && company === 'small' && strength === 'design' && hobby === 'drawing' && beatles === 'paul') {
+      if (developer === 'frontEnd' && company === 'small' && strength === 'design') {
         $("#frontEndResult").show();
       } else if (developer === 'frontEnd' && company === 'medium' && strength === 'logic') {
         $("#fullStackResult").show();
-      } else if (developer === 'frontEnd' && company === 'medium' && strength === 'logic') {
-        $("#brilliant").show();
+      } else if (developer === 'frontEnd' && company === 'large' && strength === 'logic') {
+        $("#frontEndResult").show();
       } else if (developer === 'backEnd' && company === 'large' && strength === 'patience') {
         $("#backEndResult").show();
       } else if (developer === 'backEnd' && company === 'medium' && strength === 'patience') {
         $('#fullStackResult').show();
+      } else if (developer === 'backEnd' && company === 'small' && strength === 'logic') {
+        $('#fullStackResult').show();
       } else if (developer === 'undecided' && company === 'small' && strength === 'design') {
         $('#frontEndResult').show();
       } else if (developer === 'undecided' && company === 'large' && strength === 'logic') {
-        $('#backEndResult').show();
-      } else if (developer === 'undecided' && company === 'medium' && strength === 'patience') {
         $('#fullStackResult').show();
-      } else if (strength === 'logic' && hobby === 'boardGames' && beatles === 'john') {
-        $('#backEndResult').show();
-      } else if (strength === 'design' && hobby === 'drawing' && beatles === 'george') {
-        $('#FrontEndResult').show();
-      } else if (strength === 'patience' && hobby === 'bicycle' && beatles === 'paul') {
+      } else if (developer === 'undecided' && company === 'medium' && strength === 'design') {
         $('#fullStackResult').show();
-      } else if (company === 'small' && hobby === 'boardGames' && beatles === 'john') {
+      } else if (book === '1984' && hobby === 'boardGames' && beatles === 'john') {
         $('#backEndResult').show();
-      } else if (company === 'medium' && hobby === 'bicycle' && beatles === 'paul') {
+      } else if (book === 'pi' && hobby === 'drawing' && beatles === 'paul') {
         $('#fullStackResult').show();
-      } else if (company === 'large' && hobby === 'drawing' && beatles === 'george') {
+      } else if (book === 'war' && hobby === 'bicycle' && beatles === 'george') {
         $('#frontEndResult').show();
-      } else if (developer === 'frontEnd' && devel === 'boardGames' && beatles === 'john') {
+      } else if (book === '1984' && hobby === 'boardGames' && beatles === 'john') {
+        $('#fullStackResult').show();
+      } else if (book === 'pi' && hobby === 'drawing' && beatles === 'george') {
+        $('#FrontEndResult').show();
+      } else if (book === 'war' && hobby === 'bicycle' && beatles === 'john') {
+        $('#fullStackResult').show();
+      } else if (book === '1984' && hobby === 'boardGames' && beatles === 'paul') {
+        $('#fullStackResult').show();
+      } else if (book === 'pi' && hobby === 'bicycle' && beatles === 'george') {
+        $('#frontEndResult').show();
+      } else if (book === 'war' && hobby === 'drawing' && beatles === 'john') {
         $('#backEndResult').show();
-
       } else {
         $('#fullStackResult').show();
-
       }
 
 
