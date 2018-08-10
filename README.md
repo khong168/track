@@ -9,7 +9,6 @@
 _The user will answer the highly analytical 6 question Track Tracker quiz to correctly choose which programming language to study. Answers will generate a recommended programming language and detailed description. This webpage is also intended to show the authors competence and understanding of this week's jQuery, Javascript and Bootstrap lessons._
 
 ## Setup/Installation Requirements
-https://github.com/khong168/track.git
 
 * _Clone application at https://github.com/khong168/track.git to desktop_
 * _Open index.html in Chrome browser_
