@@ -7,12 +7,12 @@ $(document).ready(function() {
       var beatles = $("input[name='beatles']:checked").val();
       var book = $("input[name='book']:checked").val();
 
-      console.log(developer);
-      console.log(company);
-      console.log(strength);
-      console.log(hobby);
-      console.log(beatles);
-      console.log(book);
+      // console.log(developer);
+      // console.log(company);
+      // console.log(strength);
+      // console.log(hobby);
+      // console.log(beatles);
+      // console.log(book);
 
 
       if (developer === 'frontEnd' && company === 'small' && strength === 'design') {
