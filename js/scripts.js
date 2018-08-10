@@ -23,6 +23,8 @@ $(document).ready(function() {
         $("#frontEndResult").show();
       } else if (developer === 'backEnd' && company === 'large' && strength === 'patience') {
         $("#backEndResult").show();
+      } else if (developer === 'backEnd' && company === 'large' && strength === 'logic') {
+        $("#backEndResult").show();
       } else if (developer === 'backEnd' && company === 'medium' && strength === 'patience') {
         $('#fullStackResult').show();
       } else if (developer === 'backEnd' && company === 'small' && strength === 'logic') {
@@ -31,6 +33,8 @@ $(document).ready(function() {
         $('#frontEndResult').show();
       } else if (developer === 'undecided' && company === 'large' && strength === 'logic') {
         $('#fullStackResult').show();
+      } else if (developer === 'undecided' && company === 'large' && strength === 'design') {
+        $('#frontEndResult').show();
       } else if (developer === 'undecided' && company === 'medium' && strength === 'design') {
         $('#fullStackResult').show();
       } else if (book === '1984' && hobby === 'boardGames' && beatles === 'john') {
