@@ -37,3 +37,16 @@ img {
     padding: 25px;
 
 }
+
+.results {
+  padding: 25px 0px 25px 0px;
+  text-align: center;
+  color: #00628B;
+
+}
+
+.description {
+  text-align: left;
+  color: black;
+  
+}
