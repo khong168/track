@@ -1,3 +1,13 @@
 #frontEndResult, #backEndResult, #fullStackResult {
   display: none;
 }
+
+.fancy {
+  font-size: 200px;
+  color: #00628B;
+}
+
+.bright {
+  font-size: 100px;
+  color: #81A594;
+}
