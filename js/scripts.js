@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $("form#surveyForm").submit(function(event) {
+    $("form#surveyForm").submit(function(event) {
+        // $('#surveyForm')[0].reset();
       var developer = $("input[name='developer']:checked").val();
       var company = $("input[name='company']:checked").val();
       var strength = $("input[name='strength']:checked").val();
