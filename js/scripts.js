@@ -1,5 +1,10 @@
 $(document).ready(function() {
     $("form#surveyForm").submit(function(event) {
+      var results = ["#frontEndResult", "#fullStackResult", "#backEndResult"];
+        results.forEach(function(result) {
+          $(result).hide();
+        });
+        
       var developer = $("input[name='developer']:checked").val();
       var company = $("input[name='company']:checked").val();
       var strength = $("input[name='strength']:checked").val();
